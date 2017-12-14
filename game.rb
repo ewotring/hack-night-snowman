@@ -64,7 +64,10 @@ while underscore_bool == true && turns <= turns_allowed
     underscore_bool = true
   else
     underscore_bool = false
+    puts "Guesser wins"
   end
   turns += 1
 end
+
+puts "Game over"
 # downcase
