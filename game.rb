@@ -17,6 +17,7 @@ puts "#{word}"
 
 puts "How many turns?"
 turns_allowed = gets.chomp.to_i
+# Add validation
 
 underscore_pure = []
 (word.length).times do
